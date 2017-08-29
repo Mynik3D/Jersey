@@ -7,13 +7,7 @@
 	height: 480px;
 
 }
-/*.slick-prev{
-	left: 30px;
-	
-}
-.slick-next{
-	right: 30px;
-}*/
+
 .prev{
 width: 32px;
 height: 32px;
@@ -36,33 +30,7 @@ background: url(../images/right.png);
 cursor: pointer;
 
 }
-.sl__slide{
-	position: relative;
-}
-.sl__text{
-position: absolute;
-bottom: 0;
-text-align: center;
-width: 100%;
-top: 10px;
 
-}
-
-.sl__zag{
-		color: #3172f7;
-		font-family: "Oswald";
-		font-size: 43px;
-		font-weight: 700;
-		text-transform: uppercase;
-		text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.5);
-}
-.sl__desc{
-	color: #fff;
-	font-family: "Varela Round";
-	font-size: 48px;
-	font-weight: 400;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
 .slick-dots {
     bottom: 35px !important;
 }
