@@ -1,3 +1,12 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -box-sizing: border-box;
+}
+p{
+	margin: 0;
+}
+
 body{
 	font-size: 14px;
 	line-height: 1.6;
@@ -98,11 +107,7 @@ body{
     align-items: center;
     }
 
-/*.main{
-	max-width: 960px;
-	margin: 20px auto;
 
-}*/
 
 
 img{
@@ -142,6 +147,8 @@ img{
 		font-weight: 700;
 		text-transform: uppercase;
 		text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.5);
+		-webkit-text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.5);
+
 }
 		&__desc{
 			color: #fff;
@@ -168,7 +175,9 @@ img{
 
 
 .banners{
-	&__item-snic{
+
+	&__item{
+			&-snic{
 		background: url(../images/snick.png);
 		width: 240px;
         height: 240px;
@@ -185,7 +194,7 @@ img{
 						        }
 	}
 
-	&__item-boot{
+	&-boot{
 		background: url(../images/boot.png) no-repeat center;
 		background-color: #f0f0f0;
 		width: 240px;
@@ -200,16 +209,18 @@ img{
 								font-size: 16px;
 								font-weight: 400;
 								line-height: 24px;
+								padding-top: 128px;
+								
 					        }
 	}
-
-	&__item-whis{
+	&-whis{
 		background: url(../images/jeans.png);
 		width: 480px;
 		height: 240px;
 
 		h4{
         	padding-top: 40px;
+        	margin: 0;
         }
 							        p{
 							        	color: #222222;
@@ -217,17 +228,27 @@ img{
 										font-size: 24px;
 										font-weight: 400;
 										line-height: 30px;
+										padding-top: 20px;
+										
 							        }
 	}
+	&__text-q{
+		padding-left: 239px;
+	}
 
-/*banner h4*/
 		h4{
 				color: #1f4ba5;
 				font-family: Oswald;
 				font-size: 12px;
 				font-weight: 700;
 				text-transform: uppercase;
+				margin: 0;
+				
+	}
 	}
 
 }
 
+.most{
+	text-align: center;
+}
