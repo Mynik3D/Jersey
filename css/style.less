@@ -176,6 +176,12 @@ img{
 
 .banners{
 
+	&::after{
+		content: '';
+		clear: both;
+		display: block;
+	}
+
 	&__item{
 			&-snic{
 		background: url(../images/snick.png);
@@ -249,6 +255,133 @@ img{
 
 }
 
-.most{
-	text-align: center;
+.most-l{
+
+	       text-align: center;
+	       border-bottom: 1px solid #ececec;
+						&::after{
+							content: '';
+							clear: both;
+							display: block;
+						}
+						
+
+									&__header{
+										padding: 20px;
+
+														&-h{
+															h2{
+																color: #1f4ba5;
+																font-family: Oswald;
+																font-size: 18px;
+																font-weight: 700;
+																line-height: 30px;
+																text-transform: uppercase;
+															}
+																						p{
+																							color: #868686;
+																							font-family: "Varela Round";
+																							font-size: 14px;
+																							font-weight: 400;
+																							line-height: 18px;
+																						}
+														}
+
+									}
+
+									&__first{
+										padding: 20px 20px;
+										/*border-left: 1px solid #ececec;*/
+														&-product{
+																	p{
+																		color: #222222;
+																		font-family: "Varela Round";
+																		font-size: 12px;
+																		font-weight: 400;
+																		line-height: 16px;
+																		margin-bottom: 63px;
+																	}
+																								&__title{
+																										margin-top: 75px;
+
+																								.sale{
+																									float: left;
+																									margin-right: 35px;
+																								}
+																								.price{
+																									margin-right: 43px;
+																									color: #ff3f2b;
+																									font-family: Oswald;
+																									font-size: 12px;
+																									font-weight: 700;
+																								}
+																								.no-price{
+																									color: #a1a1a1;
+																									font-family: Oswald;
+																									font-size: 8px;
+																									font-weight: 700;
+																									text-decoration: line-through;
+																								}
+																					}
+														}
+
+									}
+									&__second{
+												padding: 20px 0;
+												/*border-left: 1px solid #ececec;*/				&-product{
+																					p{
+																						color: #222222;
+																						font-family: "Varela Round";
+																						font-size: 12px;
+																						font-weight: 400;
+																						line-height: 16px;
+																					}
+																					&__price{
+																								color: #222222;
+																								font-family: Oswald;
+																								font-size: 12px;
+																								font-weight: 700;
+																								
+																					}
+																					.upper{
+																						margin-bottom: 45px;
+																					}
+																}
+									}
+
+
+									&__third{
+										padding: 20px 20px;
+										/*border-left: 1px solid #ececec;*/
+														&-product{
+																p{
+																	color: #222222;
+																	font-family: "Varela Round";
+																	font-size: 12px;
+																	font-weight: 400;
+																	line-height: 16px;
+																	margin-bottom: 65px;
+																}
+																&__title{
+																	margin-top: 63px;
+																	.nsale{
+																		float: left;
+																	}
+																}
+														}
+									}
+
+
+
+	img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.first,
+	.second,
+	.third{
+		    border-left: 1px solid #ececec;
+	}
+
 }
