@@ -37,3 +37,29 @@ cursor: pointer;
 .slick-dots li button:before{
 	font-size: 14px;
 }
+
+
+.prev-ml{
+	width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 88px;
+    margin-top: 38px;
+    background: url(../images/next-ml.png) no-repeat 10px;
+    z-index: 1;
+    cursor: pointer;
+    border: 1px solid #ececec;
+}
+.next-ml{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 119px;
+    margin-top: 38px;
+    background: url(../images/prev-ml.png) no-repeat 12px;
+    cursor: pointer;
+    border: 1px solid #ececec;
+
+}
