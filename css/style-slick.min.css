@@ -40,25 +40,25 @@ cursor: pointer;
 
 
 .prev-ml{
-	width: 32px;
-    height: 32px;
+	width: 60px;
+    height: 60px;
     position: absolute;
     top: 50%;
-    left: 88px;
+    left: 59px;
     margin-top: 38px;
-    background: url(../images/next-ml.png) no-repeat 10px;
+    background: url(../images/next-ml.png) no-repeat center;
     z-index: 1;
     cursor: pointer;
     border: 1px solid #ececec;
 }
 .next-ml{
-    width: 32px;
-    height: 32px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     top: 50%;
-    left: 119px;
+    left: 118px;
     margin-top: 38px;
-    background: url(../images/prev-ml.png) no-repeat 12px;
+    background: url(../images/prev-ml.png) no-repeat center;
     cursor: pointer;
     border: 1px solid #ececec;
 
