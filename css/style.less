@@ -435,6 +435,8 @@ img{
 
 						}
 						&__inf{
+							display: inline-flex;
+							flex-direction: column;
 								.grid_2{
 									background: #1f4ba5;
 									width: 120px!important;
@@ -475,5 +477,29 @@ img{
 												display: block;
 											}
 											
+
+							
+									&__h,&__b{
+										height: 60px;
+										&:after{
+												content: '';
+												clear: both;
+												display: block;
+											}	
+
+									}	
+									&__b{
+										.zx{
+											position: absolute;
+										}
+									}	
+																
 							}
+							&__bordr__r{
+								border-right: 1px solid #ececec;
+							}
+
 }
+									
+
+

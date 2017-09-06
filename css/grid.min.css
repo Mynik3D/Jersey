@@ -1,0 +1,24 @@
+							.grid_6{
+								width: 480px!important;
+								margin: 0!important;
+							}
+							.grid_1{
+								margin: 0!important;
+							}
+							.suffix_2{
+								padding-right: 120px !important;
+							}
+							.suffix_1{
+								padding-right: 60px !important;
+							}
+							.prefix_1{
+								    margin-left: 60px!important;
+								    padding-left: 0!important;
+							}
+						.grid_4,.grid_3{
+							margin: 0;
+							width: 240px!important;
+						}
+					/*	.grid_3{
+							width: 240px!important;
+						}*/
