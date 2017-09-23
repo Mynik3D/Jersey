@@ -57,7 +57,6 @@ body{
 	&__srch{
 			&__input{
 				border-radius: 30px;
-				background-color: #f6f6f6;
 				border: none;
 				width: 220px;
 				color: #868686;
@@ -69,7 +68,7 @@ body{
 			}
 			&__button{
 				       position: absolute;
-					    top: 38px;
+					    top: 30px;
 					    right: 210px;
 					    background: url(../images/search.png) no-repeat 2px;
 					    font-size: 0;
@@ -174,7 +173,7 @@ img{
 
 
 
-.banners{
+.banner{
 
 	&::after{
 		content: '';
@@ -511,8 +510,7 @@ img{
 									}	
 										
 										&__r__block{
-											border-right: 1px solid #ececec;
-									
+											
 											text-align: center;
 											 padding: 40px 30px;
 											 &--a{
@@ -586,7 +584,7 @@ img{
 											 		color: #222;
 												font-family: "Varela Round";
 												font-size: 14px;
-												font-weight: 400;
+												font-weight: 700;
 											 	}
 												span{
 													font-family: 'PT Serif', serif;
@@ -613,6 +611,56 @@ img{
 							}
 
 }
-									
+	
 
+.banners{
+	background: #f4f5f7;
+	    	&::after{
+		content: '';
+		clear: both;
+		display: block;
+	}
+	&__wrapp{
+		padding: 0 40px;
+		display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	    					&__years{
+	    						span{
+	    							font-size: 14px;
+		    						font-family: Oswald;
+		    						color: #222;
+		    						font-weight: bold;
+	    						}
+		    						
+	    					}
+	    					&__zag{
+	    						h2{
+	    							font-size: 30px;
+		    						font-family: "Varela Round";
+		    						color: #222;
+		    						font-weight: normal;
+	    						}
+		    						
+	    					}
+	    					&__links{
+	    						
+	    						a{
+		    						font-size: 12px;
+		    						color: #1f4ba5;
+		    						font-family: "Varela Round";
+		    						font-weight: normal;
+	    							border: 2px solid #1f4ba5;
+	    							border-radius: 30px;
+	    							padding: 6px 30px;
+	    							text-decoration: none;
+	    							&:first-child{
+	    								margin-right: 6px;
+	    							}
+	    						}
+
+	    					}
+}
 
