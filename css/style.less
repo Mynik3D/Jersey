@@ -6,6 +6,9 @@
 p{
 	margin: 0;
 }
+img{
+	display: block;
+}
 
 body{
 	font-size: 14px;
@@ -479,7 +482,6 @@ img{
 
 							
 									&__h,&__b{
-										height: 60px;
 										&:after{
 												content: '';
 												clear: both;
@@ -664,3 +666,51 @@ img{
 	    					}
 }
 
+/*.box-fx{
+	display: flex;
+	flex-direction: column;
+	float: left;
+}*/
+.inst{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+						&__desc{
+							text-align: center;
+							padding: 40px 0;
+											h4{
+												    color: #1f4ba5;
+												    font-family: Oswald;
+												    font-size: 18px;
+												    font-weight: 700;
+												    text-transform: uppercase;
+											}
+											p{
+												    color: #868686;
+												    font-family: "Varela Round";
+												    font-size: 14px;
+												    font-weight: 400;
+											}
+						}
+						&__pics-a--fx{
+							display: -webkit-flex;
+							display: -moz-flex;
+							display: -ms-flex;
+							display: -o-flex;
+							display: flex;
+							flex-direction: column;
+							float: left;
+						}
+						&__inf{
+							display: -webkit-flex;
+							display: -moz-flex;
+							display: -ms-flex;
+							display: -o-flex;
+							display: flex;
+							flex-direction: column;
+						}
+
+}
