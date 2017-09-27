@@ -6,9 +6,7 @@
 p{
 	margin: 0;
 }
-img{
-	display: block;
-}
+
 
 body{
 	font-size: 14px;
@@ -411,6 +409,9 @@ img{
 											clear: both;
 											display: block;
 										}
+										img{
+	display: block;
+}
 						&__header{
 							padding: 40px 30px;
 							display: flex;
@@ -666,11 +667,6 @@ img{
 	    					}
 }
 
-/*.box-fx{
-	display: flex;
-	flex-direction: column;
-	float: left;
-}*/
 .inst{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -678,6 +674,7 @@ img{
 	display: -o-flex;
 	display: flex;
 	flex-direction: row;
+
 						&__desc{
 							text-align: center;
 							padding: 40px 0;
@@ -695,7 +692,11 @@ img{
 												    font-weight: 400;
 											}
 						}
-						&__pics-a--fx{
+						&__pics{
+							img{
+								display: block;
+							}
+							&-a--fx{
 							display: -webkit-flex;
 							display: -moz-flex;
 							display: -ms-flex;
@@ -703,7 +704,11 @@ img{
 							display: flex;
 							flex-direction: column;
 							float: left;
+
 						}
+						}
+						
+
 						&__inf{
 							display: -webkit-flex;
 							display: -moz-flex;
@@ -711,6 +716,79 @@ img{
 							display: -o-flex;
 							display: flex;
 							flex-direction: column;
+							text-align: center;
+													&__desc{
+														background: #1f4ba5;
+														text-align: center;
+														padding: 23px 0;
+														
+														span{
+															color: #fff;
+															text-transform: uppercase;
+															font-family: Oswald;
+														    font-size: 14px;
+														    font-weight: bold;
+
+														}
+
+													}
+													&__posts,&__flw{
+														 padding: 3px 0 3px 0;
+														border-bottom: 1px solid #ececec;
+													}
+													.num{
+														color: #222;
+														font-size: 14px;
+														font-family: Oswald;
+														font-weight: bold;
+														letter-spacing: 1px;
+														
+													}
+													.zag{
+														font-family: "PT Serif";
+														font-size: 12px;
+														color: #868686;
+													}
+													&__arrows{
+							                                   position: relative;
+																							&--prev{
+																									    width: 60px;
+																									    height: 60px;
+																									    position: absolute;
+																									    top: 50%;
+																									    left: 0px;
+																									    background: url(../images/next-ml.png) no-repeat center;
+																									    z-index: 1;
+																									    cursor: pointer;
+																									    border: 1px solid #ececec;
+																							}
+																							&--next{
+																									    width: 60px;
+																									    height: 60px;
+																									    position: absolute;
+																									    top: 25%;
+																									    left: 59px;
+																									    background: url(../images/prev-ml.png) no-repeat center;
+																									    cursor: pointer;
+																									    border: 1px solid #ececec;
+																							}
+						                                       }
 						}
 
+					
+
+}
+.feature{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: space-between;
+	&__rain,&__clock,&__comps,&__star{
+		padding: 30px 30px;
+		border: 1px solid #ececec;
+	}
 }
