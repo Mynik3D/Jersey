@@ -618,6 +618,9 @@ img{
 
 .banners{
 	background: #f4f5f7;
+	  img{
+	  	display: block;
+	  }
 	    	&::after{
 		content: '';
 		clear: both;
@@ -677,7 +680,7 @@ img{
 
 						&__desc{
 							text-align: center;
-							padding: 40px 0;
+							padding: 35px 0;
 											h4{
 												    color: #1f4ba5;
 												    font-family: Oswald;
@@ -733,7 +736,7 @@ img{
 
 													}
 													&__posts,&__flw{
-														 padding: 3px 0 3px 0;
+														 padding: 5px 0 3px 0;
 														border-bottom: 1px solid #ececec;
 													}
 													.num{
@@ -760,7 +763,7 @@ img{
 																									    background: url(../images/next-ml.png) no-repeat center;
 																									    z-index: 1;
 																									    cursor: pointer;
-																									    border: 1px solid #ececec;
+																									   /* border: 1px solid #ececec;*/
 																							}
 																							&--next{
 																									    width: 60px;
@@ -770,7 +773,7 @@ img{
 																									    left: 59px;
 																									    background: url(../images/prev-ml.png) no-repeat center;
 																									    cursor: pointer;
-																									    border: 1px solid #ececec;
+																									    border-left: 1px solid #ececec;
 																							}
 						                                       }
 						}
@@ -785,10 +788,94 @@ img{
 	display: -o-flex;
 	display: flex;
 	flex-direction: row;
-	
+	text-align: center;
 	justify-content: space-between;
+	border: 1px solid #ececec;
 	&__rain,&__clock,&__comps,&__star{
 		padding: 30px 30px;
-		border: 1px solid #ececec;
+		border-right: 1px solid #ececec;
+		
+		
 	}
+	p{
+		color: #222;
+	    font-family: "Varela Round";
+	    font-size: 12px;
+	    font-weight: 400;
+	}
+	img{
+		margin-bottom: 10px;
+	}
+&__rain{
+	img{
+		margin-bottom: 15px;
+	}
+}
+
+
+}
+.footer{
+			background: #222;
+			padding: 25px 30px;
+			color: #fff;
+		  	&::after{
+			content: '';
+			clear: both;
+			display: block;
+		}
+							&__info{
+								
+								h4{
+								   font-family: "Varela Round";
+									font-size: 12px;
+									text-transform: uppercase;
+								}
+								ul{
+									padding: 0;
+									list-style: none;
+									li{
+										font-family: "Varela Round";
+									    font-size: 12px;
+									    line-height: 30px;
+									}
+								}
+							}
+							&__right{
+								text-align: center;
+								&__srch{
+									position: relative;
+								}
+								&__zag{
+									    display: -webkit-flex;
+									    display: -moz-flex;
+									    display: -ms-flex;
+									    display: -o-flex;
+									    display: flex;
+									    flex-direction: row;
+									    justify-content: space-around;
+								}
+								&__srch__input{
+									border-radius: 30px;
+								    border: 0;
+								    width: 360px;
+								    color: #868686;
+								    font-family: "PT Serif";
+								    font-size: 12px;
+								    font-style: italic;
+								    padding: 10px 0 10px 42px;
+								     background: url(../images/send-r.png) #393939 no-repeat 10px;
+								}
+								&__srch__button{
+									    position: absolute;
+									    top: 6px;
+									    right: 210px;
+									    background: url(../images/arrow-r.png) no-repeat 2px;
+									    font-size: 0;
+									    width: 22px;
+									    height: 24px;
+									    border-width: 0;
+									    right: 77px;
+								}
+							}
+
 }
