@@ -816,7 +816,6 @@ img{
 }
 .footer{
 			background: #222;
-			padding: 25px 30px;
 			color: #fff;
 		  	&::after{
 			content: '';
@@ -824,11 +823,12 @@ img{
 			display: block;
 		}
 							&__info{
-								
+								padding: 0 28px;
 								h4{
 								   font-family: "Varela Round";
 									font-size: 12px;
 									text-transform: uppercase;
+									color: #fff;
 								}
 								ul{
 									padding: 0;
@@ -842,8 +842,16 @@ img{
 							}
 							&__right{
 								text-align: center;
+								padding: 30px 0;
+								border-right: 1px solid #353535;
+							    border-left: 1px solid #353535;      	
+
+								&__img{
+									margin-bottom: 30px;
+								}
 								&__srch{
 									position: relative;
+									margin-bottom: 30px;
 								}
 								&__zag{
 									    display: -webkit-flex;
@@ -853,6 +861,10 @@ img{
 									    display: flex;
 									    flex-direction: row;
 									    justify-content: space-around;
+									    margin-bottom: 30px;
+									    font-family: "Varela Round";
+										font-size: 12px;
+										color: #fff;
 								}
 								&__srch__input{
 									border-radius: 30px;
@@ -875,6 +887,31 @@ img{
 									    height: 24px;
 									    border-width: 0;
 									    right: 77px;
+								}
+								&__copy{
+									span{
+										font-family: "PT Serif";
+							   		    font-size: 12px;
+							   		    color: #868686;
+									}
+								}
+							}
+							&__contact{
+								padding: 0 30px;
+								h4{
+								   font-family: "Varela Round";
+									font-size: 12px;
+									text-transform: uppercase;
+									color: #fff;
+								}
+								ul{
+									padding: 0;
+									list-style: none;
+									li{
+										font-family: "Varela Round";
+									    font-size: 12px;
+									    line-height: 30px;
+									}
 								}
 							}
 
